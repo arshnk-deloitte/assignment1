@@ -47,6 +47,9 @@ points=(SELECT COUNT(*) FROM fixtures WHERE team_won=points.team_name)*2
 SELECT no_of_losses FROM Points WHERE team_name='PK';
  
 SELECT team_name FROM points WHERE points>(SELECT points FROM points WHERE team_name='RR');
+
+
+//new line for git change
  
 
 
